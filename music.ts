@@ -24,6 +24,7 @@ export const music = async () => {
         break;
       case "artist":
         console.log(JSON.stringify(await api.getArtist(command[1])));
+        break;
       case "playlist":
         console.log(JSON.stringify(await api.getPlaylist(command[1])));
         break;
