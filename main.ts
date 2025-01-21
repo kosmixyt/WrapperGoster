@@ -1,4 +1,3 @@
-import { music } from "./music.ts";
 import { dynamic, Stats } from "./stats.ts";
 import { fetchYggTorrentCloudflare } from "./ygg.ts";
 
@@ -13,9 +12,6 @@ switch (firstArg) {
     break;
   case "network":
     setInterval(dynamic, 1000);
-    break;
-  case "music":
-    music();
     break;
   default:
     console.error(`Unknown command ${firstArg}`);
