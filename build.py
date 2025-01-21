@@ -5,4 +5,5 @@ setup(
     version="1.0",
     description="Wrapper for YTMusic",
     executables=[Executable("index.py")]
+    
 )

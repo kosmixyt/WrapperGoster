@@ -2,6 +2,8 @@ import sys
 from ytmusicapi import YTMusic
 import json
 import os
+import requests
+from multiprocessing import Queue
 
 ytmusic = YTMusic(auth='oauth.json')
 
